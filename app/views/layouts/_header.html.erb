@@ -6,7 +6,10 @@
     </div>
 
     <div class="right_menu">
-      <%= link_to "Contact", root_path(anchor: "contact_info"), class: "contact_info_link" %>
+      <span class="right_menu_links"><%= link_to "About Me", root_path(anchor: "contact_info") %></span>
+      <span class="right_menu_links"><%= link_to "Projects", root_path(anchor: "projects_info") %></span>
+      <span class="right_menu_links"><%= link_to "Contact", root_path(anchor: "contact_info") %></span>
+      <span class="right_menu_links"><%= link_to "Blog", root_path(anchor: "blog_info") %></span>
     </div>
   </div>
 
