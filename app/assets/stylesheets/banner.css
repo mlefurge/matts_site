@@ -1,0 +1,101 @@
+.video_container {
+  position: static;
+  margin: 0;
+  padding: 0;
+}
+
+.banner_video {
+  position: absolute;
+  min-width: 100%;
+  width: auto;
+  left: 0;
+  top: 0;
+}
+
+.top_menu {
+  position: fixed;
+  left:0;
+  top: 0;
+  min-width: 100%;
+  width: auto;
+  height: 4em;
+  color: white;
+  z-index: 1;
+  font-family: 'Special Elite', cursive;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+
+.top_menu a {
+  color: white;
+  text-decoration: none;
+}
+
+
+.scrolling {
+  color: black;
+  font-family: 'Special Elite', cursive;
+  background-color: white;
+  z-index: 1
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+
+.scrolling a {
+  color: black;
+  text-decoration: none;
+}
+
+.left_menu {
+  float: left;
+  margin: 1.5em;
+  font-size: larger;
+}
+
+.right_menu {
+ float: right;
+ margin: 1.5em;
+ font-size: larger;
+}
+
+.right_menu_links {
+  margin: 1.5em;
+}
+
+.bottom_menu {
+  position: absolute;
+  bottom: 40%;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  x-index: -1;
+}
+
+.icons {
+  margin: 1.5em;
+  display: inline-block;
+  text-align: center;
+}
+
+.icons img {
+  height: 50%;
+  width: 50%;
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+
+.icons img:hover {
+  border-radius: 50%;
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+
+
+
