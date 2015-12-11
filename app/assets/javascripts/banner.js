@@ -19,13 +19,13 @@ $(document).ready(function(){
     }
   })
 
-  $('a').click(function(event){
+  $('a#anchor').click(function(event){
     event.preventDefault();
 
     var target = this.hash;
     var $target = $(target);
 
-    $('html, body').stop().animate({
+    $('html, body').animate({
       'scrollTop': $target.offset().top
      }, 500, 'swing');
 
