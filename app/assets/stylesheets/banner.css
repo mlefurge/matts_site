@@ -1,0 +1,63 @@
+.video_container {
+  position: static;
+  margin: 0;
+  padding: 0;
+}
+
+.banner_video {
+  position: absolute;
+  min-width: 100%;
+  width: auto;
+  left: 0;
+  top: 0;
+}
+
+.top_menu {
+  position: fixed;
+  left:0;
+  top: 0;
+  min-width: 100%;
+  width: auto;
+  height: 4em;
+  color: white;
+  font-family: 'Special Elite', cursive;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+
+.top_menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.scrolling {
+  color: black;
+  font-family: 'Special Elite', cursive;
+  background-color: white;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+
+.scrolling a {
+  color: black;
+  text-decoration: none;
+}
+
+.left_menu {
+  float: left;
+  margin: 1.5em;
+  font-size: larger;
+}
+
+.right_menu {
+ float: right;
+ margin: 1.5em;
+ font-size: larger;
+}
+
+
+
+
+
+
+
