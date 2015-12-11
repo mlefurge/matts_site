@@ -1,15 +1,32 @@
 <div class="video_container">
   <%= video_tag "matts_site_video.mov", controls: false, autoplay: true, loop: true, class: "banner_video", id: "top_page" %>
   <div class="top_menu">
+
     <div class="left_menu">
       <%= link_to "Matthew LeFurge", root_path(anchor: "top_page") %>
     </div>
 
     <div class="right_menu">
-      <span class="right_menu_links"><%= link_to "About Me", root_path(anchor: "contact_info") %></span>
+      <span class="right_menu_links"><%= link_to "About Me", root_path(anchor: "about_info") %></span>
       <span class="right_menu_links"><%= link_to "Projects", root_path(anchor: "projects_info") %></span>
       <span class="right_menu_links"><%= link_to "Contact", root_path(anchor: "contact_info") %></span>
       <span class="right_menu_links"><%= link_to "Blog", root_path(anchor: "blog_info") %></span>
+    </div>
+
+  </div>
+
+  <div class="bottom_menu">
+    <div class="icons">
+      <%= link_to image_tag("github_icon"), "https://github.com/mlefurge" %>
+    </div>
+    <div class="icons">
+      <%= link_to image_tag("google_plus_icon"), "https://plus.google.com/u/0/111030862495794050334" %>
+    </div>
+    <div class="icons">
+      <%= link_to image_tag("linkedin_icon"), "https://www.linkedin.com/in/matthewlefurge" %>
+    </div>
+    <div class="icons">
+      <%= mail_to "matthew.lefurge@gmail.com", image_tag("email_icon") %>
     </div>
   </div>
 
