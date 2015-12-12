@@ -10,7 +10,14 @@
     </div>
 
     <div class="contact_info_text">
-      test text
+      <% if flash[:notice] %>
+        <div>
+          <% flash[:notice].each do |message| %>
+          <p> <%= message %> </p>
+          <% end %>
+        </div>
+      <% end %>
+      <%= render template: "contact_forms/new" %>
     </div>
 
   </div>
