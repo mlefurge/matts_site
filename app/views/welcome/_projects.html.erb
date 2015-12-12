@@ -1,5 +1,59 @@
 <div class="projects_container">
 
-check out my projects
+  <div class="projects_header", id="projects_info">
+    <div class="projects_header_text"> My Projects </div>
+    <div class="projects_header_subtext">(click on a project to learn more) </div>
+  </div>
+
+  <div class="projects_show_container">
+    <div class="projects_show">
+      <div class="flippable">
+        <figure class="front">
+          <%= image_tag("stash_image", class: "photo") %>
+        </figure>
+        <figure class="back">
+          <div class="project_info">
+            <h3> stash </h3>
+            <p>  </p>
+            <p> Stash is a mobile friendly web application built with Ruby on Rails. With stash, you can swipe through pictures of food taken at restaurants in your area. If the food looks delicious to you, swipe the photo to your stash. Information about the food depicted in each photo is available. </p>
+            <p> Stash uses Google Maps and Places APIs to auto-populate important information, such as the name of the restaurant where the food was served, the location of the restaurant, and the price range of the dish. </p>
+            <p> If you are on your mobile device, you have the option to take photos of food (must be from a restaurant), tag the location and details of the food and upload the photo to the application so others have the option to add it to their stash. </p>
+
+            <%= link_to "Link to the stash", "http://s-tash.herokuapp.com/" %>
+
+          </div>
+        </figure>
+      </div>
+    </div>
+
+    <div class="projects_show">
+      <div class="flippable">
+        <figure class="front">
+          <%= image_tag("stack_image", class: "photo") %>
+        </figure>
+        <figure class="back">
+          <div class="project_info">
+            <h3> Stack Overflow Clone </h3>
+            <p> This is an ongoing project that represents a clone of the website, Stack Overflow. </p>
+            <p> Current features include: </p>
+            <ul>
+              <li> Sign in with Facebook or Google</li>
+              <li> Once logged in, you can post questions (with the ability to tag) and answers </li>
+              <li> You can also vote and comment on questions and answers </li>
+            </ul>
+            <p> Features that I plan on including in the future are: </p>
+            <ul>
+              <li> Indexing and utilizing ActiveRecord counter cache to improve the performance of the website. </li>
+              <li> Additional AJAX to improve the user experience </li>
+              <li> Create user profile pages </li>
+            </ul>
+            <%= link_to "Link to the GitHub repository", "https://github.com/mlefurge/stack-overflow-clone" %>
+          </div>
+        </figure>
+      </div>
+    </div>
+  </div>
 
 </div>
+
+
