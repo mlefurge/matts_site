@@ -1,0 +1,53 @@
+.projects_container {
+  margin-top: 6em;
+  background-color: black;
+  height: 40em;
+}
+
+.projects_header {
+  font-family: 'Permanent Marker', cursive;
+}
+
+.projects_header_text {
+  color: white;
+  font-size: 2em;
+  text-align: center;
+}
+
+.projects_header_subtext {
+  color: white;
+  font-size: smaller;
+  text-align: center;
+}
+
+.projects_show_container {
+  text-align: center;
+}
+
+.projects_show_1 {
+  width: 30%;
+  height: 25em;
+  display: inline-block;
+  margin: 5em;
+  padding: 5px;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;
+  box-shadow:         3px 3px 5px 6px #ccc;
+  background-image: url("stash_image");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.projects_show_2 {
+  width: 30%;
+  height: 25em;
+  display: inline-block;
+  margin: 5em;
+  padding: 5px;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;
+  box-shadow:         3px 3px 5px 6px #ccc;
+  background-image: url("stack_image");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
