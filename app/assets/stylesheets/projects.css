@@ -189,5 +189,9 @@ figure, figcaption {
 }
 
 
-
+.project_info {
+  margin:1em;
+  text-align: left;
+  font-family: 'Permanent Marker', cursive;
+}
 
