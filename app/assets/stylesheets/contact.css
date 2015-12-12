@@ -1,0 +1,31 @@
+.contact_container {
+  margin: 4em;
+}
+
+.contact_header {
+  color: black;
+  font-size: 2em;
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.contact_box {
+  display: inline-block;
+}
+.contact_photo_container {
+  height: 400px;
+  width: 400px;
+  background-image: url("contact_photo.jpg");
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.contact_info_text {
+  display: inline-block;
+  overflow: hidden;
+  height: 400px;
+  margin-left: 5em;
+
+}
