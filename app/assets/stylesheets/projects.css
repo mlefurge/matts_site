@@ -1,7 +1,11 @@
 .projects_container {
-  margin-top: 6em;
-  background-color: black;
   height: 100%;
+  width: 80%;
+  padding: 1em;
+  margin: 6em auto;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;
+  box-shadow:         3px 3px 5px 6px #ccc;
 }
 
 .projects_header {
@@ -9,7 +13,7 @@
 }
 
 .projects_header_text {
-  color: white;
+  color: black;
   font-size: 2em;
   text-align: center;
 }
@@ -133,6 +137,7 @@ figure, figcaption {
 /*  box-shadow: 0 0 20px rgba(0, 0, 0, .2);
   background: #eee6d8;*/
 
+
   -webkit-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
   -moz-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
   box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
@@ -159,17 +164,24 @@ figure, figcaption {
   -webkit-perspective: 1000;
   -moz-perspective: 1000;
 /*  margin: auto;*/
+
 }
 
 .projects_show .front {
   position: relative;
   overflow: hidden;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;
+  box-shadow:         3px 3px 5px 6px #ccc;
 }
 
 .projects_show .back {
   position: relative;
   display: none;
   overflow: hidden;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;
+  box-shadow:         3px 3px 5px 6px #ccc;
 
 }
 
