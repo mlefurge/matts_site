@@ -1,0 +1,9 @@
+<div class="contact_form_container">
+  Send me a message:
+  <%= form_for ContactForm.new do |f| %>
+    <p><%= f.text_field :name, placeholder: "Enter Your Name", class: "form_text" %></p>
+    <p><%= f.text_field :email, placeholder: "Enter Your Email", class: "form_text" %></p>
+    <p><%= f.text_area :message, placeholder: "Enter Your Message", class: "form_textarea" %> </p>
+    <p><%= button_tag "Cancel", class: "button", id: "cancel" %><%= f.submit "Send Message" , class: "button" %></p>
+  <% end %>
+</div>

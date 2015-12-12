@@ -10,7 +10,22 @@
     </div>
 
     <div class="contact_info_text">
-      test text
+      <% if flash[:notice] %>
+        <div>
+          <% flash[:notice].each do |message| %>
+          <p> <%= message %> </p>
+          <% end %>
+        </div>
+      <% end %>
+      <div class="generic_info">
+        <p>Name: Matthew LeFurge</p>
+        <p>Location: New York City</p>
+        <p>Email: matthew.lefurge@gmail.com</p>
+        <p>Resume: <%= link_to "My Resume", "https://resume.creddle.io/resume/fjhw0jwfb17", target: "_blank" %>
+          <p> Or </p>
+      </div>
+      <%= button_tag "Contact Me Directly", class: "button", id: "contact_me" %>
+      <%= render template: "contact_forms/new" %>
     </div>
 
   </div>
