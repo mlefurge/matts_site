@@ -22,6 +22,20 @@
         <p>Location: New York City</p>
         <p>Email: matthew.lefurge@gmail.com</p>
         <p>Resume: <%= link_to "My Resume", "https://resume.creddle.io/resume/fjhw0jwfb17", target: "_blank" %>
+        <div class="social_icons">
+          <div class="icons">
+            <%= link_to image_tag("github_icon"), "https://github.com/mlefurge", target: "_blank" %>
+          </div>
+          <div class="icons">
+            <%= link_to image_tag("google_plus_icon"), "https://plus.google.com/u/0/111030862495794050334", target: "_blank" %>
+          </div>
+          <div class="icons">
+            <%= link_to image_tag("linkedin_icon"), "https://www.linkedin.com/in/matthewlefurge", target: "_blank" %>
+          </div>
+          <div class="icons">
+            <%= mail_to "matthew.lefurge@gmail.com", image_tag("email_icon") %>
+          </div>
+        </div>
           <p> Or </p>
       </div>
       <%= button_tag "Contact Me Directly", class: "button", id: "contact_me" %>
