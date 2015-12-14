@@ -34,7 +34,6 @@
   display: inline-block;
 }
 
-
 img.photo {
   width: 100%;
   height: 100%;
@@ -47,13 +46,13 @@ img.photo {
   margin: auto;
 }
 
-
 .flip {
   -webkit-backface-visibility:hidden;
   -webkit-transform:translateX(0);
   -moz-backface-visibility:hidden;
   -moz-transform:translateX(0);
 }
+
 .flip.out {
   -webkit-transform: rotateY(-90deg) scale(.9);
   -webkit-animation-name: flipouttoleft;
@@ -62,18 +61,21 @@ img.photo {
   -moz-animation-name: flipouttoleft;
   -moz-animation-duration: 175ms;
 }
+
 .flip.in {
   -webkit-animation-name: flipintoright;
   -webkit-animation-duration: 1000ms;
   -moz-animation-name: flipintoright;
   -moz-animation-duration: 1000ms;
 }
+
 .flip.out.reverse {
   -webkit-transform: rotateY(90deg) scale(.9);
   -webkit-animation-name: flipouttoright;
   -moz-transform: rotateY(90deg) scale(.9);
   -moz-animation-name: flipouttoright;
 }
+
 .flip.in.reverse {
   -webkit-animation-name: flipintoleft;
   -moz-animation-name: flipintoleft;
@@ -136,8 +138,6 @@ figure, figcaption {
   z-index: 2;
 /*  box-shadow: 0 0 20px rgba(0, 0, 0, .2);
   background: #eee6d8;*/
-
-
   -webkit-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
   -moz-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
   box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
@@ -164,7 +164,6 @@ figure, figcaption {
   -webkit-perspective: 1000;
   -moz-perspective: 1000;
 /*  margin: auto;*/
-
 }
 
 .projects_show .front {
@@ -182,7 +181,6 @@ figure, figcaption {
   -webkit-box-shadow: 3px 3px 5px 6px #ccc;
   -moz-box-shadow:    3px 3px 5px 6px #ccc;
   box-shadow:         3px 3px 5px 6px #ccc;
-
 }
 
 .projects_show img {
@@ -191,7 +189,6 @@ figure, figcaption {
   width: 600px;
 /*  margin: 2px auto;*/
   position: relative;
-
 }
 
 .projects_show figcaption{
@@ -199,7 +196,6 @@ figure, figcaption {
   font-size:1.0em;
   letter-spacing:0.09em;
 }
-
 
 .project_info {
   margin:1em;
