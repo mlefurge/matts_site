@@ -1,4 +1,4 @@
 Matt's Site README
 
-Welcome to Matt's Site Github page. Matt's Site is the personal website for Matthew LeFurge. The site is built on Ruby on Rails and hosted on heroku (matt-ssite.herokuapp.com). The website can also be accessed at www.matthewlefurge.com. The site is styled with regular CSS. Additional features that I would like to implement include: making the site mobile friendly and adding the ability to send me an email from the website in the "Contact Me" section.
+Welcome to Matt's Site Github page. Matt's Site is the personal website for Matthew LeFurge. The site is built on Ruby on Rails and hosted on heroku (matt-site.herokuapp.com). The website can also be accessed at www.matthewlefurge.com. The site is styled with regular CSS. Additional features that I would like to implement include: making the site mobile friendly and adding the ability to send me an email from the website in the "Contact Me" section.
 
