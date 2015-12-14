@@ -36,7 +36,7 @@
   color: black;
   font-family: 'Special Elite', cursive;
   background-color: white;
-  z-index: 1
+  z-index: 1;
   -webkit-transition: background-color 0.5s;
   transition: background-color 0.5s;
 }
